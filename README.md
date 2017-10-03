@@ -9,7 +9,7 @@ Below are instructions to run sample application.
 Download IoT C++ SDK Library (https://download.appdynamics.com) and unzip into the directory `sdk`.
 
 Set APPD_IOT_SDK_PATH environment variable to the directory `sdk` which has `include` and `lib` folders.
-Makefile reads APPD_IOT_SDK_PATH environment variable to include SDK headers and link SDK library to sample application
+Makefile reads APPD_IOT_SDK_PATH environment variable to include SDK headers and link SDK library to sample application.
 
 ```sh
 $ export APPD_IOT_SDK_PATH=<sdk>
