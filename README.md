@@ -1,4 +1,4 @@
-C++ Sample Application using IoT C++ SDK
+Sample Application using IoT C++ SDK
 ==========================================
 
 This application fills and sends sample data for Custom, Network and Error Events.
