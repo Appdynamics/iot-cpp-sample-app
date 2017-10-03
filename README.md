@@ -16,13 +16,17 @@ $ export APPD_IOT_SDK_PATH=<sdk>
 $ make
 ```
 
-
 To dynamically link IoT C++ SDK library to your application running on Linux, set LD_LIBRARY_PATH environment variable to lib directory of SDK.
 
 ```sh
 $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$APPD_IOT_SDK_PATH/lib
 ```
 
+To dynamically link IoT C++ SDK library to your application running on Mac, set DYLD_LIBRARY_PATH environment variable to lib directory of SDK.
+
+```sh
+$ export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:$APPD_IOT_SDK_PATH/lib
+```
 
 Below is usage information for the sample app. Provide AppKey as an input along with any options as needed.
 
