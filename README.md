@@ -31,7 +31,7 @@ $ export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:$APPD_IOT_SDK_PATH/lib
 Below is usage information for the sample app. Provide AppKey as an input along with any options as needed.
 
 ```sh
-USAGE: ./simple <appkey> [options]
+USAGE: ./sample <appkey> [options]
 options:
 -collectorurl <url> Collector URL to which sdk will send events to.
 -logfile <file>     Log file to which sdk log messages are written to.
@@ -58,45 +58,45 @@ Here are some examples of using the sample app:
 
 Display Usage Information
 ```sh
-$ ./simple -h
+$ ./sample -h
 ```
 
 Send Sample Custom, Network, and Error Events to default APPD Collector
 ```sh
-$ ./simple <appkey>
+$ ./sample <appkey>
 ```
 
 Send Sample Custom, Network, and Error Events to Custom Collector (http://localhost:9001)
 ```sh
-$  ./simple <appkey> -c http://localhost:9001
+$  ./sample <appkey> -c http://localhost:9001
 ```
 
 Send Sample Custom, Network, and Error Events to Custom Collector (http://localhost:9001) and publish log messages to custom log file (mylog.log)
 ```sh
-$  ./simple <appkey> -c http://localhost:9001 -f mylog.log
+$  ./sample <appkey> -c http://localhost:9001 -f mylog.log
 ```
 
 Send Sample Custom, Network, and Error Events to Custom Collector (http://localhost:9001) and publish log messages to mylog.log with loglevel set to warn
 ```sh
-$  ./simple <appkey> -c http://localhost:9001 -f mylog.log -l 2
+$  ./sample <appkey> -c http://localhost:9001 -f mylog.log -l 2
 ```
 
 Send Sample Custom Event to Custom Collector (http://localhost:9001)
 ```sh
-$  ./simple <appkey> -c http://localhost:9001 -s 1
+$  ./sample <appkey> -c http://localhost:9001 -s 1
 ```
 
 Send Sample Network Event to Custom Collector (http://localhost:9001)
 ```sh
-$  ./simple <appkey> -c http://localhost:9001 -s 2
+$  ./sample <appkey> -c http://localhost:9001 -s 2
 ```
 
 Trigger POST Network Request to URL (http://yoururl.com) with data in JSON format. Capture and Send Network Event to Custom Collector (http://localhost:9001)
 ```sh
-$  ./simple <appkey> -c http://localhost:9001 -s 2 -u http://yoururl.com -x POST -d '{"param1"="value1"}'
+$  ./sample <appkey> -c http://localhost:9001 -s 2 -u http://yoururl.com -x POST -d '{"param1"="value1"}'
 ```
 
 Send Sample Error Event to Custom Collector (http://localhost:9001)
 ```sh
-$  ./simple <appkey> -c http://localhost:9001 -s 4
+$  ./sample <appkey> -c http://localhost:9001 -s 4
 ```
