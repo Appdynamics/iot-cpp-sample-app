@@ -61,7 +61,7 @@ Display Usage Information
 $ ./sample -h
 ```
 
-Send Sample Custom, Network, and Error Events to default APPD Collector
+Send Sample Custom, Network, and Error Events to default APPD Collector (https://iot-col.eum-appdynamics.com)
 ```sh
 $ ./sample <appkey>
 ```
