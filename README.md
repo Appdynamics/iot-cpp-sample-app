@@ -1,5 +1,5 @@
 ## Overview
-This sample application uses IoT C/C++ SDK to fill and send sample data (Custom, Network and Error Events) to AppDynamics Collector. Sample Data reflects a Smart Car Application capturing usage information, network performance and errors.
+This sample application uses IoT C/C++ SDK to fill and send sample IoT data (Custom, Network and Error Events) to AppDynamics Collector. Sample Data reflects a Smart Car Application capturing usage information, network performance and errors.
 
 ## Steps
 
