@@ -10,7 +10,7 @@ This sample application uses IoT C/C++ SDK to fill and send sample data (Custom,
    * `lib` - sdk library
 4. [Run the Sample App](#run-sample-app)
 5. [Confirm IoT Data is reported to Collector](https://docs.appdynamics.com/x/9AyeAg)
-6. To customize instrumentation review [Getting Started](https://docs.appdynamics.com/pages/viewpage.action?pageId=42597347) and [SDK API docs](https://docs.appdynamics.com/javadocs/iot-cpp-sdk/4.4/4.4.0/)
+6. To Customize Instrumentation review [Getting Started](https://docs.appdynamics.com/pages/viewpage.action?pageId=42597347) and [SDK API docs](https://docs.appdynamics.com/javadocs/iot-cpp-sdk/4.4/4.4.0/)
 
 
 ## <a id="run-sample-app"></a>Run the Sample App
