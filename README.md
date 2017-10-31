@@ -1,12 +1,19 @@
-Sample Application using IoT C++ SDK
-==========================================
+## Overview
+This sample application uses IoT C/C++ SDK to fill and send sample data (Custom, Network and Error Events) to AppDynamics Collector. Sample Data reflects a Smart Car Application capturing usage information, network performance and errors.
 
-This application fills and sends sample data for Custom, Network and Error Events.
-Sample Data reflects a Smart Car Application capturing usage information, network performance and errors.
+## Steps
 
-Below are instructions to run sample application.
+1. [Get EUM App Key](https://docs.appdynamics.com/x/-PuJAg)
+2. [Download IoT C/C++ SDK](https://download.appdynamics.com/)
+3. Expand the tarball (tar -xf <tarball.tgz>) into `sdk` directory. This will create below directories:
+   * `include` - header files
+   * `lib` - sdk library
+4. [Run the Sample App](#run-sample-app)
+5. [Confirm IoT Data is reported to Collector](https://docs.appdynamics.com/x/9AyeAg)
+6. To customize instrumentation review [Getting Started](https://docs.appdynamics.com/pages/viewpage.action?pageId=42597347) and [SDK API docs](https://docs.appdynamics.com/javadocs/iot-cpp-sdk/4.4/4.4.0/)
 
-Download IoT C++ SDK Library (https://download.appdynamics.com) and unzip into the directory `sdk`.
+
+## <a id="run-sample-app"></a>Run the Sample App
 
 Set APPD_IOT_SDK_PATH environment variable to the directory `sdk` which has `include` and `lib` folders.
 Makefile reads APPD_IOT_SDK_PATH environment variable to include SDK headers and link SDK library to sample application.
@@ -100,3 +107,5 @@ Send Sample Error Event to Custom Collector (http://localhost:9001)
 ```sh
 $  ./sample <appkey> -c http://localhost:9001 -s 4
 ```
+## Customise Instrumentation
+Review SDK API Documentation[https://docs.appdynamics.com/javadocs/iot-cpp-sdk/4.4/4.4.0/] and IoT Monitoring
