@@ -107,5 +107,3 @@ Send Sample Error Event to Custom Collector (http://localhost:9001)
 ```sh
 $  ./sample <appkey> -c http://localhost:9001 -s 4
 ```
-## Customise Instrumentation
-Review SDK API Documentation[https://docs.appdynamics.com/javadocs/iot-cpp-sdk/4.4/4.4.0/] and IoT Monitoring
