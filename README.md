@@ -4,7 +4,7 @@ This sample application uses IoT C/C++ SDK to fill and send sample IoT data (Cus
 ## Steps
 
 1. [Get EUM App Key](https://docs.appdynamics.com/x/-PuJAg)
-2. [Download IoT C/C++ SDK](https://download.appdynamics.com/)
+2. [Download IoT C/C++ SDK](https://download.appdynamics.com/download/#version=&apm=iot&os=&platform_admin_os=&events=&eum=&page=1)
 3. Expand the tarball (tar -xf <tarball.tar>) into `sdk` directory. This will create below directories:
    * `include` - header files
    * `lib` - sdk library
