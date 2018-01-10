@@ -174,6 +174,7 @@ int main(int argc, char* argv[])
 
   free_options();
   close_log();
+  appd_iot_clear_all_events();
 
   return 0;
 }
